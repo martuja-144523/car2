@@ -1,0 +1,103 @@
+ /* common css starts here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    color: #e43143;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+ /* common css ends here  */
+/* nav css  */
+nav{
+    background: #212121;
+}
+nav .holder{
+    width: 1170px;
+    background: #212121;
+    margin: auto;
+}
+nav .holder hr{
+    color: #595959;
+}
+nav .holder .row{
+    justify-content: flex-end;
+}
+nav .holder .row .nav-icon{
+    padding: 4px 21px;
+    margin: 10px 0;
+}
+nav .holder .row .nav-icon a{
+    font-size: 14px;
+}
+nav .holder .row .border{
+    border-left: 2px solid #595959;
+}
+nav .holder .nav-parents{
+    justify-content: flex-start;
+}
+nav ul{
+    display: flex;
+}
+nav .nav-parents .list ul  li{
+    padding: 10px 25px;
+    margin: 10px 0px;
+    color: #fff;
+    border-right: 1px solid #595959;
+}
+nav .nav-parents .list ul  li:nth-child(4){
+    border: none;
+}
+nav ul li a{
+    display: block;
+}
+nav .list ul li #diff{
+    text-align: right;
+    color: #fff;
+}
+.nav-parents{
+    align-items: center;
+    justify-content: center;
+}
+.nav-parents >img{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.nav-parents .list{
+    width: 80%;
+}
+
+nav .list ul li p{
+    font-size: 14px;
+}
+nav .list ul li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav .holder .nav-parents .list:nth-child(2){
+    padding-left: 213px;
+}
+.list .left-1{
+    display: block;
+    margin-right: 0%; 
+}
+.list .left{
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+/* nav css  */
